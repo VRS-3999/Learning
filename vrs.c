@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main()
 {
-printf("hellow");
-printf("changes are here");
-printf("i can see it");
-printf("i made a change");
+int n,m;
+printf("hello , enter a no .\n");
+Scanf("%d",&n);
+printf("enter no . To be added\n");
+Scanf("%d",&m);
+int s=m+n;
+printf("Sum is : %d",s);
 }
